@@ -62,10 +62,21 @@
     <ol type="1">
         <li>Download git from the link: <a href="https://git-scm.com/download/win" target="_blank">https://git-scm.com/download/win</a></li>
         <li>Install it with default options</li>
-        <li>Now open your project folder where you are working, 
+        <li>Now open your project folder where you are working on any IDE, 
             run COMMAND PROMPT or GIT BASH there.</li>
         <li>Now, you need to add commands.</li>
-    
+        <li>Use command <i> git config --global user.name userName</i> to tell that all changes are made by xyz person</li>
+        <li>Use command <i> git config --global user.email userEmail</i> to tell that changes in the project are made by xyz person having email abc</li>
+
+        <li>Then use command <i>git init</i></li>
+        <li>This will create a new empty Git Repository</li>
+        <li>Now we will move files to the staged area. But before that run command <i>git status</i> to know status of your files. It will show the list of files that are untracked</li>
+        <li>So, to add files to be able to track, we need to send it to staging area. For that use command <i>git add . (Add all files)</i> or <i>git add fileName (add file with specific name)</i></li>
+        <li>Now you can begin doing work on your project. After a specific amount of work is done, you need to commit the changes.</li>
+        <li>Run command git status and see that it will show the list of files that are modified</li>
+        <li>Use command <i>git commit -m "_message to know what changes you've done"</i> to commit those changes</li>
+
+
     </ol>
     
 </ol>
